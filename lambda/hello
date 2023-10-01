@@ -1,0 +1,10 @@
+//code for a lambda function that outputs "Hello World"
+
+exports.handler = async function(event, context) {
+  console.log("EVENT: \n" + JSON.stringify(event, null, 2))
+  return {
+    statusCode: 200,
+    headers: { "Content-Type": "text/plain" },
+    body: `Hello, CDK! You've hit ${event.path}\n`
+  };
+}
