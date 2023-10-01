@@ -1,15 +1,3 @@
-# CDK Lambda function and API Gateway
-This is a CDK project that creates a Lambda function and API Gateway.
-
-## Steps
-
-1. Create a new folder for the project, for example `cdk-lambda-api-gateway`
-2. Create a new CDK project in the folder: `cdk init app --language=typescript`
-3. Edit `lib/cdk-lambda-api-gateway-stack.ts` and add your desired code to the `CdkLambdaApiGatewayStack` class.
-4. Synth the CDK project: `cdk synth`. This will generate the CloudFormation template.
-5. Deploy the CDK project: `cdk deploy`. This will deploy the CloudFormation template.
-
-
 ## CDK Lambda Function and API Gateway
 
 This CDK project simplifies the process of creating a Lambda function and API Gateway using AWS Cloud Development Kit (CDK) and TypeScript.
